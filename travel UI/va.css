@@ -1,0 +1,104 @@
+:root {
+  --color-primary: #0073ff;
+  --color-white: #e9e9e9;
+  --color-black: #141d28;
+  --color-black-1: #212b38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(img/home-bg.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.main{
+  min-height: 100vh;
+  position: relative;
+  width:100%;
+  background: url(img/home-bg.jpg) no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main p{
+  color:azure;
+  text-align: center;
+  padding: 5%;
+}
+.main .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(249, 244, 244, 0.5);
+}
+
+.main .input .talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main .input .talk i {
+  font-size: 20px;
+  color: #aed0d0;
+}
+
+.menu-bar .input .content {
+  color: #ffffff;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.main .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(251, 247, 247, 0.5);
+}
+
+.main .input .talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main .input .talk i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.main .input .content {
+  color: #f2f7f7;
+  font-size: 15px;
+  margin-right: 20px;
+}
